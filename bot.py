@@ -63,7 +63,7 @@ async def ocurl(ctx):
                 await message.channel.send('Hmmm... That doesn\'t look like a valid link. Do you have a protocol specified? (http/https)')
                 return
               
-              await message.channel.send('https://'+jsonData['data']['url']) # Prefix with protocol to allow Discord hyperlinking
+              await message.channel.send(''+jsonData['data']['url']) # Prefix with protocol to allow Discord hyperlinking
           else:
             await message.channel.send('Sorry, the bot is offline at the moment :(')
 
