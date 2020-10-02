@@ -76,7 +76,7 @@ async def on_message(message):
     return  
 
   if (type(message.channel) is discord.DMChannel):
-    await message.channel.send('Hmm... I\'m not sure how I can respond. But this is how you can get a short url...\n `!ocrul www.example.com`')
+    await message.channel.send('Hmm... I\'m not sure how I can respond. But this is how you can get a short url...\n `!ocurl www.example.com`')
     
   # Continue processing chain
   await bot.process_commands(message)
