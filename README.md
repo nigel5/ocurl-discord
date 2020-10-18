@@ -2,6 +2,9 @@
 
 Discord bot to generate short URLs.
 
+## Invite the bot to your server!
+https://top.gg/bot/749101362171740201/invite
+
 ## Summon Bot
 `!ocurl {your destination url}`
 
